@@ -72,5 +72,5 @@ Download: Please download the data from [here](https://shapenet.cs.stanford.edu/
 
 ShapeNetFeat is the main dataset used for model pretraining, derived from the ShapeNet dataset. Within the `pointcloud` folder, the dataset contains point cloud data of 3D shapes from ShapeNet. Each point cloud consists of 50,000 points sampled from the 3D shape with surface normals, represented as [50000, 6]. The `sv_k128` folder contains the surface variation data for each 3D shape, calculated with a computation radius of 128 points. Currently, we provide preprocessing scripts for this dataset, and the complete dataset will be released in the future.
 
-To generate the surface variation data, first organize the ShapeNet point cloud data as described above. Then, run the script `python utils/preprocess_shapenet.py` to compute the surface variation for each data point. Please refer to the script for further details.
+To generate the surface variation data, first organize the ShapeNet point cloud data as described above. Then, run the script `python lib/preprocess_shapenet.py` to compute the surface variation for each data point. Please refer to the script for further details.
 
