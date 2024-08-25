@@ -1,0 +1,8 @@
+experiments
+data
+thirdparty
+__pycache__/
+*.pyc
+**/__pycache__/
+slurm.sh
+sync.sh

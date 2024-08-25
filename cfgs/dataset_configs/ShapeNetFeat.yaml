@@ -1,0 +1,3 @@
+NAME: ShapeNetFeat
+DATA_PATH: ./data/ShapeNetFeat/
+N_POINTS: 50000
